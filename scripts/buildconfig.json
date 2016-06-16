@@ -37,7 +37,7 @@
         "source": {
           "type": "Git",
           "git": {
-            "uri": "https://git.nexxera.com/geovana.souza/sample-app.git"
+            "uri": "https://github.com/geovanaSouza/hello-world-nodejs.git"
           },
           "contextDir": "node-app",
           "secrets": []
