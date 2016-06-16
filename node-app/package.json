@@ -1,0 +1,28 @@
+{
+  "name": "hello-world-nodejs",
+  "version": "0.0.1",
+  "description": "hello-world-nodejs",
+  "main": "server.js",
+  "dependencies": {
+     "properties-reader": "^0.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "dev": "nodemon --ignore node_modules/ server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geovanaSouza/hello-world-nodejs.git"
+  },
+  "keywords": [
+    "Echo"
+  ],
+  "author": "Geovana Souza <geovana.possenti@gmail.com>"
+}
